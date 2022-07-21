@@ -1,0 +1,135 @@
+.subir_archivos {
+    border: 1px solid #ccc;
+    background-color: rgb(56,136,83 );
+    padding: 15px;
+    text-align:center;
+}
+
+aside{
+    display: block;
+    background-color: rgb(79,84,92);
+    width: max-content;
+    padding: 30px;
+    
+    width: 67%;
+    float: right;
+    text-align: center;
+
+    color: rgb(221,225,234);
+}
+
+table, th, td {
+    border: 2px solid;
+    border-color: rgb(32,34,37);
+
+    padding: 10px;
+    background-color: rgb(69, 70, 71);
+    color: rgb(225, 225, 225);
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+th{
+    color: rgb(174, 171, 236);
+    font-size: 20px;
+}
+
+aside2{
+    display: block;
+    background-color: rgb(79,84,92);
+    width: max-content;
+    padding: 30px;
+    
+    width: 25%;
+    float: left;
+    text-align: center;
+
+    color: rgb(221,225,234);
+}
+
+body{
+    background-color: rgb(32,34,37);
+}
+
+h1{
+    background-color: rgb(47,49,54);
+    text-align: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.class{
+    color: red;
+    background-color: red;
+}
+
+button{
+    background-color: rgb(72, 96, 101);
+    font-size: 22px;
+    font-weight: bold;
+    padding: 30px;
+    width: 80%;
+}
+
+.logout_historial, .regresar_historial{
+    background-color: rgb(255, 42, 42) !important;
+    max-width: 49.5%;
+    float: right;
+}
+
+.regresar_historial{
+    float: left;
+    background-color: rgb(72, 96, 101) !important;
+}
+
+.logout_cargar{
+    background-color: rgb(255, 42, 42) !important;
+}
+
+
+
+/* Sidescroll */
+@media (max-width: 575.98px) {
+    .table-responsive-sm {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch; }
+      .table-responsive-sm > .table-bordered {
+        border: 0; } }
+  
+  @media (max-width: 767.98px) {
+    .table-responsive-md {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch; }
+      .table-responsive-md > .table-bordered {
+        border: 0; } }
+  
+  @media (max-width: 991.98px) {
+    .table-responsive-lg {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch; }
+      .table-responsive-lg > .table-bordered {
+        border: 0; } }
+  
+  @media (max-width: 1199.98px) {
+    .table-responsive-xl {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch; }
+      .table-responsive-xl > .table-bordered {
+        border: 0; } }
+  
+  .table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; }
+    .table-responsive > .table-bordered {
+      border: 0; }
